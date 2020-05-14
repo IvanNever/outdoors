@@ -1,5 +1,5 @@
 body {
-	font-family: "Lato", sans-serif;
+	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	line-height: 1.7;
 	color: $color-dark-grey;
@@ -27,7 +27,7 @@ body {
         display: block;
         font-size: 2rem;
         font-weight: 700;
-        letter-spacing: 1.75rem;
+        letter-spacing: 1.6rem;
         animation: moveInRight 1s ease-out;
 
         @include respond(phone) {
@@ -43,6 +43,7 @@ body {
     display: inline-block;
     background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
     -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     letter-spacing: .2rem;
     transition: all .2s;
